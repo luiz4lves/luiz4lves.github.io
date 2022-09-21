@@ -49,6 +49,7 @@ body{
 
 .lista {
     /*border: 1px solid rgb(112, 177, 16);*/
+    padding: 25px;
 }
 
 div ol li:hover {
