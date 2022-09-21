@@ -22,7 +22,7 @@ div p {
     position: absolute;
     width: 750px;
     top: 450px;
-    left: 400px;
+    left: 440px;
     text-align:left;
 
 }
@@ -33,6 +33,29 @@ div img {
     width: 250px;
     top: 270px;
     left: 150px;
+    padding: 10px;
+    background-color: rgb(100, 190, 160);
+}
+
+
+div ul {
+    /*border: 1px solid greenyellow;*/
+    list-style: none;
+    position: absolute;
+    width: 100px;
+    text-align:left;
+    left:50px;
+    top: 550px;
+}
+
+div ul li:hover {
+    border: solid rgb(66, 92, 139);
+    width: 120px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: rgb(24, 27, 27);
 }
 
 .p1 {
