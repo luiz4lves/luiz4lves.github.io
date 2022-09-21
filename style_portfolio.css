@@ -1,68 +1,77 @@
-
-.imagem_de_capa {
-    background-image:url(./imagem_portfolio/DSC_8635.JPG);
-    background-size:cover;
-    background-position: 50% 65%;
-    height: 320px;
-}
-
 body{
     margin: 0;
-    background-color: #a3bfa823;
+    background-color: #93c09c44;
     font-family: 'Montserrat', sans-serif;
 }
 
+.header {
+    /*border: 1px solid red;*/
+    background-image:url(./imagem_portfolio/DSC_8635.JPG);
+    background-size: cover;
+    background-position: 50% 70%;
+    padding: 250px 250px 150px;
+
+}
+
+.header-content {
+    /*border: 1px solid rgb(24, 27, 18);*/
+    height: 350px;
+    padding: 20px 150px 150px;
+    position: relative;
+}
+
+#s1 {
+    border-radius: 100%;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(100, 190, 160);  
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+}
+
 .nome {
-    /*border: 1px red solid;*/
+    /*border: 1px solid coral;*/
     text-align: center;
 }
 
-div p {
+.inf {
     /*border: 1px yellow solid;*/
-    position: absolute;
-    width: 750px;
-    top: 450px;
-    left: 440px;
     text-align:left;
-
-}
-
-div img {
-    border-radius: 100%;
-    position:absolute;
-    width: 250px;
-    top: 270px;
-    left: 150px;
-    padding: 10px;
-    background-color: rgb(100, 190, 160);
-}
-
-
-div ul {
-    /*border: 1px solid greenyellow;*/
-    list-style: none;
+    width: 400px;
     position: absolute;
-    width: 100px;
-    text-align:left;
-    left:50px;
-    top: 550px;
+    top: 40%;
+    left: 35%;
+
+
 }
 
-div ul li:hover {
+.lista {
+    /*border: 1px solid rgb(112, 177, 16);*/
+}
+
+div ol li:hover {
     border: solid rgb(66, 92, 139);
     width: 120px;
 }
 
-div ul li a {
+div ol li a {
     text-decoration: none;
     color: rgb(24, 27, 27);
 }
 
-.p1 {
-    font-size: 15px;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.685);
-    }
+.lista2 {
+    padding: 25px;
+}
+
+div ul li {
+    list-style: none;
+}
+
+div ul li:nth-child(odd) {
+    background-color: aquamarine;
+}
 
 .baterista {
     font-size: 32px;
@@ -117,4 +126,31 @@ div ul li a {
 .cozinheiro {
     font-size: 20px;
     color:rgb(241, 144, 9);
+} 
+
+.home {
+    /*border: solid 1px yellow;*/
+    text-align: center;
+    padding: 150px;
+}
+
+.mais_sobre {
+    /*border: 1px solid salmon;*/
+    padding: 50px
+}
+
+.botao1 {
+    color: #fff;
+    background-color:rgba(32, 32, 109, 0.774);
+    border-radius: 4px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.botao2 {
+    color: #fff;
+    background-color: chocolate;
+    border-radius: 4px;
+    padding: 15px 30px;
+    text-decoration: none;
 }
