@@ -22,7 +22,7 @@ body{
 
 #s1 {
     border-radius: 100%;
-    width: 150px;
+    width: 250px;
     padding: 10px;
     background-color: rgb(100, 190, 160);  
     position: absolute;
@@ -121,7 +121,7 @@ div ul li:nth-child(odd) {
 
 .observador {
     font-size: 25px;
-    color:rgb(16, 53, 36)
+    color:rgb(228, 26, 26)
 }
  
 .cozinheiro {
