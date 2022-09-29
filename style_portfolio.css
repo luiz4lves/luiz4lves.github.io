@@ -1,11 +1,12 @@
-body{
+*{
     margin: 0;
-    background-color: #93c09c44;
+    background-color: #bbe4c33a;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .header {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     background-image:url(./imagem_portfolio/DSC_8635.JPG);
     background-size: cover;
     background-position: 50% 70%;
@@ -13,22 +14,23 @@ body{
 
 }
 
-.header-content {
-    /*border: 1px solid rgb(24, 27, 18);*/
-    height: 350px;
-    padding: 20px 150px 150px;
-    position: relative;
+h1, h2 {
+    margin: 0 0 20px;
 }
 
+.section1 {
+    border: 1px solid greenyellow;
+      /*padding: 20px 150px 150px;*/
+}
+
+.presentation {
+    display: inline-block;
+}
 #s1 {
     border-radius: 100%;
-    width: 250px;
-    padding: 10px;
+    width: 150px;
+    padding: 4px;
     background-color: rgb(100, 190, 160);  
-    position: absolute;
-    top: 25%;
-    left: 10%;
-
 }
 
 .nome {
@@ -36,16 +38,6 @@ body{
     text-align: center;
 }
 
-.inf {
-    /*border: 1px yellow solid;*/
-    text-align:left;
-    width: 400px;
-    position: absolute;
-    top: 40%;
-    left: 35%;
-
-
-}
 
 .lista {
     /*border: 1px solid rgb(112, 177, 16);*/
